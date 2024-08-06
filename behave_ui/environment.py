@@ -1,5 +1,5 @@
 from selenium import webdriver
-from behave_basics.pages.main_page import MainPage
+from behave_ui.pages.main_page import MainPage
 
 
 def before_feature(context, feature):
