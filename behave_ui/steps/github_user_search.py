@@ -26,7 +26,7 @@ def search_for_username_using_enter_return(context, username):
 
 @step('API: send GET request "{url}"')
 def get_request_followers(context, url):
-    token = 'user_token'
+    token = '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'
     headers = {
         'Authorization': f'token {token}',
     }
